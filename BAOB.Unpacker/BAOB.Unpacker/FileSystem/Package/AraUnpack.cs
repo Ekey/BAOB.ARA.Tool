@@ -108,6 +108,8 @@ namespace BAOB.Unpacker
                         File.WriteAllBytes(m_FullPath, lpBuffer);
                     }
                 }
+
+                TAraStream.Dispose();
             }
         }
     }
